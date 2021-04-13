@@ -6,6 +6,6 @@ read a
 echo -e "Enter b:\c"
 read b
 
-c=$(($a+$b))
+c=$(($a-$b))
 
-echo "The sum = $c"
+echo "The subtraction = $c"
